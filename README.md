@@ -3,6 +3,8 @@
 [![TypeScript](https://img.shields.io/badge/TypeScript-5.7-blue.svg)](https://www.typescriptlang.org/)
 [![License: MIT](https://img.shields.io/badge/License-MIT-emerald.svg)](LICENSE)
 
+![Book Rhino MCP](docs/logo.jpg)
+
 Official [Model Context Protocol (MCP)](https://modelcontextprotocol.io/) server for [Book Rhino](https://github.com/leouofa/book-rhino), enabling AI assistants (Antigravity, Claude Desktop, Claude Code, and Cursor) to architect novels, build worlds and characters, manage creative taxonomies, upload reference imagery, orchestrate asynchronous Sidekiq AI pipelines, and export compiled Markdown manuscripts.
 
 ---
