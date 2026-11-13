@@ -57,12 +57,31 @@ In your Book Rhino Rails application:
 
 ### 1. Antigravity IDE / Claude Desktop / Cursor
 
+Using `npx` (recommended):
+
+```json
+{
+  "mcpServers": {
+    "book-rhino": {
+      "command": "npx",
+      "args": ["-y", "book-rhino-mcp"],
+      "env": {
+        "BOOK_RHINO_URL": "http://localhost:3000",
+        "BOOK_RHINO_API_KEY": "br_live_your_token_here"
+      }
+    }
+  }
+}
+```
+
+Or from local build:
+
 ```json
 {
   "mcpServers": {
     "book-rhino": {
       "command": "node",
-      "args": ["/Users/leonid/src/book-rhino-mcp/dist/index.js"],
+      "args": ["/path/to/book-rhino-mcp/dist/index.js"],
       "env": {
         "BOOK_RHINO_URL": "http://localhost:3000",
         "BOOK_RHINO_API_KEY": "br_live_your_token_here"
@@ -78,7 +97,7 @@ In your Book Rhino Rails application:
 claude mcp add book-rhino \
   -e BOOK_RHINO_URL=http://localhost:3000 \
   -e BOOK_RHINO_API_KEY=br_live_your_token_here \
-  -- node /Users/leonid/src/book-rhino-mcp/dist/index.js
+  -- npx -y book-rhino-mcp
 ```
 
 ---

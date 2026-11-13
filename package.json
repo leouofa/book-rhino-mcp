@@ -36,6 +36,17 @@
   ],
   "author": "Leonid Medovyy <leonid@macron1.io>",
   "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/leouofa/book-rhino-mcp.git"
+  },
+  "bugs": {
+    "url": "https://github.com/leouofa/book-rhino-mcp/issues"
+  },
+  "homepage": "https://github.com/leouofa/book-rhino-mcp#readme",
+  "publishConfig": {
+    "access": "public"
+  },
   "dependencies": {
     "@modelcontextprotocol/sdk": "^1.10.0",
     "zod": "^3.24.2"
